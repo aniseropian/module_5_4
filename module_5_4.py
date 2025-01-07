@@ -1,7 +1,7 @@
 class House:
     """Represents a house with a name and number of floors."""
 
-    houses_history = [] #Class attribute
+    houses_history = [] 
 
     def __new__(cls, name, number_of_floors):
         """Adds the name of the new house to the class history."""
